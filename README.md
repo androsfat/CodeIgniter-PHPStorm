@@ -12,7 +12,7 @@ Open the folder with PHPStorm.
 
 Mark the following files as Plain Text:
 
-system/core/CodeIgniter.php
+system/core/CodeIgniter.php   
 system/core/Model.php   
 system/database/DB_active_rec.php   
 
