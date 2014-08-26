@@ -5,17 +5,18 @@
  * <code>
  * $this->site_model->get_records()
  * </code>
- * Where site_model is the model Class
+ * Where site_model is the model file name
+ * Where Site_model is the model Class
  *
  * ---------------------- Models to Load ----------------------
  * <examples>
  *
- * @property membership_model $membership_model
- * @property site_model $site_model
- * @property data_model $data_model
- * @property products_model $products_model
- * @property film_model $film_model
- * @property film_model1 $film_model1
+ * @property membership_model $Membership_model
+ * @property site_model $Site_model
+ * @property data_model $Data_model
+ * @property products_model $Products_model
+ * @property film_model $Film_model
+ * @property film_model1 $Film_model1
  *
  *
  *
