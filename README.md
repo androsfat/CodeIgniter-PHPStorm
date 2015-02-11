@@ -1,18 +1,24 @@
-CodeIgniter-PHPStorm
+CodeIgniter-PhpStorm
 ====================
 
-Codeigniter 2.2.0 support for PHPStorm.
+CodeIgniter 2.2.0 support for PhpStorm 8.0
 
 How To
 ====================
 
 When creating a new project, clone this repository instead of the default on CodeIgniter.
 
-Open the folder with PHPStorm.
+Open the folder with PhpStorm.
 
-Mark the following files as Plain Text:
+Mark the only following files as Plain Text:
 
-system/core/CodeIgniter.php   
-system/core/Model.php   
-system/database/DB_active_rec.php   
+* 'system/core/Controller.php'   
+* 'system/core/Model.php'   
+
+The only files you actually need are:
+
+* CI_phpStorm.php
+* application/models/my_models.php
+
+   
 
