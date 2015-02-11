@@ -1,7 +1,7 @@
 CodeIgniter-PhpStorm
 ====================
 
-CodeIgniter 2.2.0 support for PhpStorm 8.0
+CodeIgniter 2.2.1 support for PhpStorm 8.0
 
 How To
 ====================
