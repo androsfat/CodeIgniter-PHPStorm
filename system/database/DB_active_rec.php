@@ -41,26 +41,26 @@ class CI_DB_active_record extends CI_DB_driver {
 	var $ar_offset				= FALSE;
 	var $ar_order				= FALSE;
 	var $ar_orderby				= array();
-	var $ar_set					= array();
+	var $ar_set				= array();
 	var $ar_wherein				= array();
-	var $ar_aliased_tables		= array();
+	var $ar_aliased_tables			= array();
 	var $ar_store_array			= array();
 
 	// Active Record Caching variables
 	var $ar_caching				= FALSE;
-	var $ar_cache_exists		= array();
-	var $ar_cache_select		= array();
+	var $ar_cache_exists			= array();
+	var $ar_cache_select			= array();
 	var $ar_cache_from			= array();
 	var $ar_cache_join			= array();
 	var $ar_cache_where			= array();
 	var $ar_cache_like			= array();
-	var $ar_cache_groupby		= array();
-	var $ar_cache_having		= array();
-	var $ar_cache_orderby		= array();
+	var $ar_cache_groupby			= array();
+	var $ar_cache_having			= array();
+	var $ar_cache_orderby			= array();
 	var $ar_cache_set			= array();
 	
 	var $ar_no_escape 			= array();
-	var $ar_cache_no_escape     = array();
+	var $ar_cache_no_escape     		= array();
 
 	// --------------------------------------------------------------------
 
