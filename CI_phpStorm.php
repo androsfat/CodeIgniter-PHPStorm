@@ -66,7 +66,7 @@
  * @property CI_Upload $upload File Uploading Class
  * @property CI_URI $uri Parses URIs and determines routing
  * @property CI_User_agent $user_agent Identifies the platform, browser, robot, or mobile devise of the browsing agent
- * @property CI_Validation $validation //dead
+ * @property CI_Form_Validation $fom_validation //dead
  * @property CI_Xmlrpc $xmlrpc XML-RPC request handler class
  * @property CI_Xmlrpcs $xmlrpcs XML-RPC server class
  * @property CI_Zip $zip Zip Compression Class
@@ -77,7 +77,7 @@
  * @property CI_Driver_Library $driver CodeIgniter Driver Library Class
  * @property CI_Cache $cache CodeIgniter Caching Class
  */
-class CI_Controller extends my_models
+class CI_Controller extends My_models
 {
     public function __construct() {} //This default return construct as set
 }
@@ -115,7 +115,7 @@ class CI_Controller extends my_models
  * @property CI_Upload $upload File Uploading Class
  * @property CI_URI $uri Parses URIs and determines routing
  * @property CI_User_agent $user_agent Identifies the platform, browser, robot, or mobile devise of the browsing agent
- * @property CI_Validation $validation //dead
+ * @property CI_Form_validation $validation //dead
  * @property CI_Xmlrpc $xmlrpc XML-RPC request handler class
  * @property CI_Xmlrpcs $xmlrpcs XML-RPC server class
  * @property CI_Zip $zip Zip Compression Class
